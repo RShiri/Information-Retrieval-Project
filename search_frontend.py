@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+INDEX_BUCKET_NAME = "bucketpoject1ramshiri209478"
 
 class MyFlaskApp(Flask):
     def run(self, host=None, port=None, debug=None, **options):
