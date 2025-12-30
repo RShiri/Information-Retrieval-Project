@@ -3,7 +3,7 @@ REGION=us-central1
 ZONE=us-central1-c
 PROJECT_NAME="kinetic-magnet-482817-q9"
 IP_NAME="$PROJECT_NAME-ip"
-GOOGLE_ACCOUNT_NAME="YOUR_ACCOUNT_NAME_HERE" # without the @post.bgu.ac.il or @gmail.com part
+GOOGLE_ACCOUNT_NAME="ramshir" # without the @post.bgu.ac.il or @gmail.com part
 
 # 0. Install Cloud SDK on your local machine or using Could Shell
 # check that you have a proper active account listed
