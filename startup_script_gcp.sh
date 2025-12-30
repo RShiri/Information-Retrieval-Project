@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-APP_USER="ramshir"
+APP_USER="Puzik7399"
 APP_HOME="/home/${APP_USER}"
 VENV_DIR="${APP_HOME}/venv"
 
