@@ -42,6 +42,7 @@ def search():
     if len(query) == 0:
       return jsonify(res)
     # BEGIN SOLUTION (Placeholder for full search)
+    res = backend.serch_body(query)
     # END SOLUTION
     return jsonify(res)
 
@@ -52,6 +53,7 @@ def search_body():
     if len(query) == 0:
       return jsonify(res)
     # BEGIN SOLUTION (TF-IDF implementation)
+    res = backend.search_body(query)
     # END SOLUTION
     return jsonify(res)
 
@@ -87,6 +89,7 @@ def search_anchor():
     if len(query) == 0:
       return jsonify(res)
     # BEGIN SOLUTION
+    res = backend.search_anchor(query)
     # END SOLUTION
     return jsonify(res)
 
@@ -97,6 +100,7 @@ def get_pagerank():
     if len(wiki_ids) == 0:
       return jsonify(res)
     # BEGIN SOLUTION
+    res = backend.get_pagerank(wiki_ids)
     # END SOLUTION
     return jsonify(res)
 
@@ -107,6 +111,7 @@ def get_pageview():
     if len(wiki_ids) == 0:
       return jsonify(res)
     # BEGIN SOLUTION
+    res = backend.get_pageview(wiki_ids)
     # END SOLUTION
     return jsonify(res)
 
