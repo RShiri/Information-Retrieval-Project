@@ -13,7 +13,7 @@ from google.cloud import storage
 from collections import defaultdict
 from contextlib import closing
 
-PROJECT_ID = 'storied-parser-482817-s7'
+PROJECT_ID = 'ir-project-2026'
 def get_bucket(bucket_name):
     return storage.Client(PROJECT_ID).bucket(bucket_name)
 
