@@ -7,7 +7,7 @@ import os
 
 # --- Configuration & Initialization ---
 PROJECT_ID = 'storied-parser-482817-s7' #
-BUCKET_NAME = 'bucketpoject1ramshiri209478593' 
+BUCKET_NAME = 'bucketpoject1ramshiri_209478593' 
 
 nltk.download('stopwords')
 english_stopwords = frozenset(stopwords.words('english'))
