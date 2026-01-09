@@ -115,6 +115,9 @@ def get_pageview():
     # END SOLUTION
     return jsonify(res)
 
+def run(**options):
+    app.run(**options)
+
 if __name__ == '__main__':
     # Running on 0.0.0.0:8080 as per firewall rules
     app.run(host='0.0.0.0', port=8080, debug=True)
