@@ -12,9 +12,6 @@ BUCKET_NAME = "ir-project-2026-databucket"
 # אם הקורס נתן לך מספר מסמכים אחר — תעדכני כאן:
 CORPUS_SIZE = 6348910
 
-# -------- Tokenizer (כמו של staff: lowercase, בלי stemming) --------
-RE_WORD = re.compile(r"""[\#\@\w](['\-]?\w){2,24}""", re.UNICODE)
-
 def _get_stopwords():
     """Try loading NLTK stopwords; if not available, return empty set."""
     try:
