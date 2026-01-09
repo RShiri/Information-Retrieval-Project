@@ -6,8 +6,8 @@ import re
 import os
 
 # --- Configuration & Initialization ---
-PROJECT_ID = 'storied-parser-482817-s7' #
-BUCKET_NAME = 'bucketpoject1ramshiri_209478593' 
+PROJECT_ID = 'ir-project-2026' #
+BUCKET_NAME = 'ir-project-2026-databucket' 
 
 nltk.download('stopwords')
 english_stopwords = frozenset(stopwords.words('english'))
