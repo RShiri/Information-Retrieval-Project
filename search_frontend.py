@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from inverted_index_gcp import InvertedIndex #
 import nltk
 from nltk.corpus import stopwords
+from backend import BackendClass
 import re
 import os
 
@@ -32,6 +33,7 @@ class MyFlaskApp(Flask):
     def run(self, host=None, port=None, debug=None, **options):
         super(MyFlaskApp, self).run(host=host, port=port, debug=debug, **options)
 
+backend = BackendClass()
 app = MyFlaskApp(__name__)
 app.config['JSONIFY_PRETTYPRINT_REGULAR'] = False
 
