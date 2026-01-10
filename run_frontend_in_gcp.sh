@@ -1,7 +1,7 @@
 INSTANCE_NAME="instance-1"
 REGION=us-central1
 ZONE=us-central1-c
-PROJECT_NAME="ir-project-2026"
+PROJECT_NAME="rising-dominion-480521-s2"
 IP_NAME="$PROJECT_NAME-ip"
 GOOGLE_ACCOUNT_NAME="puzik7399" # without the @post.bgu.ac.il or @gmail.com part
 
