@@ -13,7 +13,7 @@ from google.cloud import storage
 from collections import defaultdict
 from contextlib import closing
 
-PROJECT_ID = 'ir-project-2026'
+PROJECT_ID = 'rising-dominion-480521-s2'
 def get_bucket(bucket_name):
     return storage.Client(PROJECT_ID).bucket(bucket_name)
 
