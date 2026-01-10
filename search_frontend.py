@@ -7,7 +7,7 @@ import re
 import os
 
 # --- Configuration & Initialization ---
-PROJECT_ID = 'ir-project-2026' #
+PROJECT_ID = 'rising-dominion-480521-s2' #
 BUCKET_NAME = 'ir-project-2026-databucket' 
 
 nltk.download('stopwords')
