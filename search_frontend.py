@@ -44,7 +44,7 @@ def search():
     if len(query) == 0:
       return jsonify(res)
     # BEGIN SOLUTION (Placeholder for full search)
-    res = backend.serch_body(query)
+    res = backend.search_body(query)
     # END SOLUTION
     return jsonify(res)
 
